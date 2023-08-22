@@ -40,52 +40,13 @@ Before this starting this lab, you should have learnt about:
 
 ## Introduction
 
-Welcome to the Pandas Lab! In this lab, you will learn how to work with pandas series and dataframes, which are powerful tools for data manipulation and analysis in Python. Pandas allows you to create, manipulate, and analyze large, complex datasets with ease, making it a valuable library for any data scientist or analyst.
+Welcome to the Pandas Lab! In this lab, you will learn how to work with and create pandas series and dataframes. These are powerful tools for data manipulation and analysis in Python and allow you to create, manipulate, and analyze large, complex datasets with ease, making it a valuable library for any data scientist or analyst.
 
-During this lab, you will learn how to create pandas series and dataframes, access their attributes and values, and manipulate them using a variety of built-in methods. You will also learn how to filter and sort data and summarize and describe data. By the end of this lab, you will have a strong foundation in working with pandas series and dataframes, which you can apply to real-world data analysis problems.
+You will also learn how to access their attributes and values, and manipulate them using a variety of built-in methods as well as learn how to filter and sort data and summarize and describe data. By the end of this lab, you will have a strong foundation in working with pandas series and dataframes, which you can apply to real-world data analysis problems.
 
 <br>
 
 **Happy coding!** :heart:
-
-## About the dataset
-
-### Context
-This is customer data with their vehicle insurance policies. Details about customers and the insurance taken for their vehicles are provided which can be explored to segment similar kind of customers.
-
-### Content
-The socio-economic data of the customer with details about the insured vehicle is the data content. Data contains both categorical and numerical variables. The customer lifetime value based on historical data has also been provided which is essential in understanding the customer purchase behavior.
-
-### Acknowledgements
-UCI ML repository
-
-### Inspiration
-The data is useful for clustering customers according to their behavior, thereby enabling targeted marketing of a new insurance policy. This helps pre-estimating a budget for marketing expenses.
-
-### Data Description
-
-- Customer - Customer ID
-
-- ST - State where customers live
-
-- Gender - Gender of the customer
-
-- Education - Background education of customers 
-
-- Customer Lifetime Value - Customer lifetime value(CLV) is the total revenue the client will derive from their entire relationship with a customer. In other words, is the predicted or calculated value of a customer over their entire duration as a policyholder with the insurance company. It is an estimation of the net profit that the insurance company expects to generate from a customer throughout their relationship with the company. Customer Lifetime Value takes into account factors such as the duration of the customer's policy, premium payments, claim history, renewal likelihood, and potential additional services or products the customer may purchase. It helps insurers assess the long-term profitability and value associated with retaining a particular customer.
-
-- Income - Customers income
-
-- Monthly Premium Auto - Amount of money the customer pays on a monthly basis as a premium for their auto insurance coverage. It represents the recurring cost that the insured person must pay to maintain their insurance policy and receive coverage for potential damages, accidents, or other covered events related to their vehicle.
-
-- Number of Open Complaints - Number of complaints the customer opened
-
-- Policy Type - There are three type of policies in car insurance (Corporate Auto, Personal Auto, and Special Auto)
-
-- Vehicle Class - Type of vehicle classes that customers have Two-Door Car, Four-Door Car SUV, Luxury SUV, Sports Car, and Luxury Car
-
-- Total Claim Amount - the sum of all claims made by the customer. It represents the total monetary value of all approved claims for incidents such as accidents, theft, vandalism, or other covered events.
-
 
 ## Requirements
 
@@ -107,6 +68,44 @@ git push origin master
 ```
 
 - Paste the link of your lab in Student Portal.
+
+## About the dataset
+
+### Context
+The dataset comprises customer data related to their vehicle insurance policies. It provides details about both the customers and the specific insurance coverage they've opted for. This data an be explored to segment similar kinds of customers.
+
+### Content
+This dataset provides socio-economic information of customers alongside details of their insured vehicles.  The data contains both categorical and numerical variables. The "Customer Lifetime Value" (CLV) has also been provided, which is derived from historical data. This is essential in understanding the customer purchase behavior.
+
+### Acknowledgements
+UCI ML repository
+
+### Inspiration
+The data is useful for clustering customers according to their behavior, thereby enabling targeted marketing of a new insurance policy. This helps pre-estimating a budget for marketing expenses.
+
+### Data Description
+
+- Customer: Customer ID.
+
+- ST: State where customers live.
+
+- Gender: Gender of the customer.
+
+- Education: Background education of customers.
+
+- Customer Lifetime Value: Customer Lifetime Value (CLV) is the total revenue the client will derive from their entire relationship with a customer. In other words, it is the predicted or calculated value of a customer over their entire duration as a policyholder with the insurance company. It is an estimation of the net profit that the insurance company expects to generate from a customer throughout their relationship with the company. CLV takes into account factors such as the duration of the customer's policy, premium payments, claim history, renewal likelihood, and potential additional services or products the customer may purchase. It helps insurers assess the long-term profitability and value associated with retaining a particular customer.
+
+- Income: Customer's earnings.
+
+- Monthly Premium Auto: The monthly premium amount a customer pays for their auto insurance. It represents the recurring cost that the insured person must pay to maintain their insurance policy and receive coverage for potential damages, accidents, or other covered events related to their vehicle.
+
+- Number of Open Complaints: Number of complaints the customer has opened.
+
+- Policy Type: Insurance policy categories include Corporate Auto, Personal Auto, and Special Auto.
+
+- Vehicle Class: Specifies the class of insured vehicles, such as Two-Door Car, Four-Door Car SUV, Luxury SUV, Sports Car, and Luxury Car.
+
+- Total Claim Amount: The sum of all claims made by the customer. It represents the total monetary value of all approved claims for incidents such as accidents, theft, vandalism, or other covered events.
 
 
 ## FAQs
