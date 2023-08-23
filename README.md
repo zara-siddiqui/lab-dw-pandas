@@ -48,27 +48,6 @@ You will also learn how to access their attributes and values, and manipulate th
 
 **Happy coding!** :heart:
 
-## Requirements
-
-- Fork this repo
-- Clone it to your machine
-
-## Getting Started
-
-Complete the challenges in the `Jupyter Notebook` file. Follow the instructions and add your code and explanations as necessary.
-
-## Submission
-
-- Upon completion, run the following commands:
-
-```bash
-git add .
-git commit -m "Solved lab"
-git push origin master
-```
-
-- Paste the link of your lab in Student Portal.
-
 ## About the dataset
 
 ### Context
@@ -106,6 +85,27 @@ The data is useful for clustering customers according to their behavior, thereby
 - Vehicle Class: Specifies the class of insured vehicles, such as Two-Door Car, Four-Door Car SUV, Luxury SUV, Sports Car, and Luxury Car.
 
 - Total Claim Amount: The sum of all claims made by the customer. It represents the total monetary value of all approved claims for incidents such as accidents, theft, vandalism, or other covered events.
+
+## Requirements
+
+- Fork this repo
+- Clone it to your machine
+
+## Getting Started
+
+Complete the challenges in the `Jupyter Notebook` file. Follow the instructions and add your code and explanations as necessary.
+
+## Submission
+
+- Upon completion, run the following commands:
+
+```bash
+git add .
+git commit -m "Solved lab"
+git push origin master
+```
+
+- Paste the link of your lab in Student Portal.
 
 
 ## FAQs
